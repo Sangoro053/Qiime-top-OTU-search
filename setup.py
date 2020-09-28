@@ -1,7 +1,7 @@
 import setuptools
  
 setuptools.setup(
-    name="qiimetophitsearch",
+    name="main",
     version="0.1.0",
     author="midorikawa",
     author_email="ccm.penaei@gmail.com",
