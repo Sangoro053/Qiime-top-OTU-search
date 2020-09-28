@@ -2,7 +2,7 @@ import argparse
 
 from qiimetophitsearch import qiimetophitsearch
 
-def main():
+def q_search():
     parser = argparse.ArgumentParser()
     parser.add_argument('arg1', help='input file')
     parser.add_argument('--module', choices=['tophit', 'tophit_all'], required=True, help='module name')
