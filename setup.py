@@ -9,13 +9,13 @@ setuptools.setup(
     long_description="hogehoge",
     long_description_content_type="text/markdown",
     url="https://github.com/Sangoro053?tab=repositories",
-    packages=setuptools.find_packages(),
+    packages=['q_search', 'qiimwtophitsearch'],
     classifiers=[
         "Programming Language :: Python :: 3.7.6",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
     entry_points = {
-        'console_scripts': ['qiimetophitsearch = main.qiimetophitsearch']
+        'console_scripts': ['q_search = q_search.call:main']
     }
 )
