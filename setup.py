@@ -2,7 +2,7 @@ import setuptools
  
 setuptools.setup(
     name="Qiime-top-OTU-search",
-    version="0.1.6",
+    version="0.1.7",
     author="midorikawa",
     author_email="ccm.penaei@gmail.com",
     description="qiimetophitsearch is my own python package",
