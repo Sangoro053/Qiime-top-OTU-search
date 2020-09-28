@@ -1,7 +1,7 @@
 import setuptools
  
 setuptools.setup(
-    name="q_search",
+    name="Qiime-top-OTU-search",
     version="0.1.6",
     author="midorikawa",
     author_email="ccm.penaei@gmail.com",
