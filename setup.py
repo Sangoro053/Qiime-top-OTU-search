@@ -16,6 +16,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     entry_points = {
-        'console_scripts': ['qiimetophitsearch = qiimetophitsearch']
+        'console_scripts': ['qiimetophitsearch = main.qiimetophitsearch']
     }
 )
