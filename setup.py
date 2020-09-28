@@ -2,7 +2,7 @@ import setuptools
  
 setuptools.setup(
     name="main",
-    version="0.1.5",
+    version="0.1.6",
     author="midorikawa",
     author_email="ccm.penaei@gmail.com",
     description="qiimetophitsearch is my own python package",
