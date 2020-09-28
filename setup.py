@@ -9,7 +9,7 @@ setuptools.setup(
     long_description="hogehoge",
     long_description_content_type="text/markdown",
     url="https://github.com/Sangoro053?tab=repositories",
-    packages=['q_search', 'qiimwtophitsearch'],
+    packages=['q_search', 'qiimetophitsearch'],
     classifiers=[
         "Programming Language :: Python :: 3.7.6",
         "License :: OSI Approved :: MIT License",
