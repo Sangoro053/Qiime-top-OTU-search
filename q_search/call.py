@@ -10,11 +10,11 @@ def q_search():
     args = parser.parse_args()
 
     if args.module == 'tophit':
-        x = qiimetophitsearch.qiimetophitsearch(args.arg1)
-        ans = x.tophit(args.scpname)
-        print(ans)
+        ist_tph = qiimetophitsearch.qiimetophitsearch(args.arg1)
+        tph = ist_tph.tophit(args.scpname)
+        print(tph)
     
     elif args.module == 'tophit_all':
-        x = qiimetophitsearch.qiimetophitsearch(args.arg1)
-        ans = x.tophit_all()
-        print(ans)
+        ist_tpa = qiimetophitsearch.qiimetophitsearch(args.arg1)
+        tpa = ist_tpa.tophit_all()
+        print(tpa)
