@@ -4,12 +4,12 @@ class qiimetophitsearch:
         self.filename = filename
 
     def tophit(self, spcname):
-        import pandas as pd
+        #import pandas as pd
         df = pd.read_csv(self.filename, delimiter='\t', header=1, index_col=0)
         return(spcname + ',' + df[spcname].idxmax())
 
     def tophit_all(self):
-        import pandas as pd
+        #import pandas as pd
         maxtaxa=[]
         df = pd.read_csv(self.filename, delimiter='\t', header=1, index_col=0)
         df=df.T
